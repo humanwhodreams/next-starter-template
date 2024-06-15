@@ -23,7 +23,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <body className={cn("antialiased", inter.className)}>
-          <Providers>{children}</Providers>
+          <Providers defaultTheme="dark">{children}</Providers>
         </body>
       </html>
     </ClerkProvider>
