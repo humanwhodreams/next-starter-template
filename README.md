@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/fromenoabasi/ensk">
-    <img src="/public/logo_dark.png" alt="Logo" width="80" height="80">
+    <img src="/public/logo_dark.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Ensk</h3>
