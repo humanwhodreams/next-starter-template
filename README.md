@@ -36,8 +36,8 @@ npm run dev
 
 ## Contacts
 
-1. [email](enoabasiessien.work@gmail.com)
-2. [website](https://enoabasi.vercep.app)
+1. Email Address: enoabasiessien.work@gmail.com
+2. Website: [enoabasi.com](https://enoabasi.vercep.app)
 
 ## Acknowlegdements
 
