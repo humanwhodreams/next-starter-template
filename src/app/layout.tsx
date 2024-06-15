@@ -5,12 +5,13 @@ import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { Providers } from "@/components/providers";
 import { cn } from "@/lib/utils";
+import { siteConfig } from "@/config/site-config";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ensk | An Opinionated Next.js Starter Kit",
-  description: "An Opinionated Next.js Starter Kit",
+  title: siteConfig.metadata.title,
+  description: siteConfig.metadata.title,
 };
 
 export default function RootLayout({
