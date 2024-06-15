@@ -3,10 +3,8 @@
     <img src="/public/logo_dark.png" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="center">Ensk</h3>
-
-  <p align="center">
-    Opinionated Next.js Starter Kit
+  <p align="center" style="font-weight:bold; font-size:22px;">
+    An Opinionated Next.js Starter Kit
   </p>
 </div>
 
