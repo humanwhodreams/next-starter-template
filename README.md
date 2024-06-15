@@ -2,13 +2,9 @@
   <a href="https://github.com/fromenoabasi/ensk">
     <img src="/public/logo_dark.png" alt="Logo" width="200" height="200">
   </a>
-
-  <p align="center" style="font-weight:bold; font-size:22px;">
-    An Opinionated Next.js Starter Kit
-  </p>
 </div>
 
-## Ensk - Enoabasi Next.js Starter Kit
+## Ensk
 
 Ensk is a small opinionated Next.js starter kit built to get you off with all the latest features of Next.js and other respective technologies from Authentication, Database, Styling and more. Can be used for any use-case.
 
