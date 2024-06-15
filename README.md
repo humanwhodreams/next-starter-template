@@ -4,11 +4,11 @@
   </a>
 </div>
 
-## Ensk
+## Ensk - Next.js Starter Kit
 
 Ensk is a small opinionated Next.js starter kit built to get you off with all the latest features of Next.js and other respective technologies from Authentication, Database, Styling and more. Can be used for any use-case.
 
-## Getting Started
+## How To Use
 
 First, clone the GitHub repository:
 
@@ -34,6 +34,11 @@ Run the server:
 npm run dev
 ```
 
+## Contacts
+
+1. [email](enoabasiessien.work@gmail.com)
+2. [website](https://enoabasi.vercep.app)
+
 ## Acknowlegdements
 
-- ByteGrad - Next.js for Full-Stack development - [watch video](https://www.youtube.com/watch?v=y7JCnfbETPs&list=WL&index=3&t=116s)
+1. ByteGrad - Next.js for Full-Stack development - [watch video](https://www.youtube.com/watch?v=y7JCnfbETPs&list=WL&index=3&t=116s)
