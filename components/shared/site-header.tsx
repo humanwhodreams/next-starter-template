@@ -22,7 +22,7 @@ export function SiteHeader({ className }: SiteHeaderProps) {
   return (
     <header
       className={cn(
-        "w-full sticky top-0 inset-x-0",
+        "w-full sticky top-0 inset-x-0 transition-all",
         isScrolling
           ? "bg-background/55 backdrop-blur-md border-b border-border"
           : "bg-background",
