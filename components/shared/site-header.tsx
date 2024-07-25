@@ -34,7 +34,7 @@ export function SiteHeader({ className }: SiteHeaderProps) {
           Next Starter Template
         </Link>
 
-        <div className="flex flex-row items-center justify-between flex-1">
+        <div className="flex flex-row items-center justify-between flex-1 md:ml-2">
           <ul aria-label="primary-navigation" className="flex items-center">
             <li>
               <Link
