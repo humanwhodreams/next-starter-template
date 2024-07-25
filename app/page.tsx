@@ -1,47 +1,21 @@
-import { ArrowUpRight, Github } from "lucide-react";
-
-import Link from "next/link";
+import { Github } from "lucide-react";
+import { SiteHeader } from "@/components/shared/site-header";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/cn";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between min-h-dvh">
-      <Header />
+      <SiteHeader />
       <Main />
       <Footer />
     </main>
   );
 }
 
-function Header() {
-  return (
-    <header>
-      <nav className="p-1">
-        <ul className="flex items-center gap-x-2">
-          <li>
-            <Link href="/" className={cn(buttonVariants({ variant: "ghost" }))}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/sign-in"
-              className={cn(buttonVariants({ variant: "ghost" }))}
-            >
-              Sign in
-              <ArrowUpRight className="flex-shrink-0 ml-2 size-4 text-muted-foreground" />
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
-
 function Main() {
   return (
-    <section>
+    <section className="min-h-screen bg-sky-50">
       <div className="mb-6 space-y-4">
         <h1 className="font-bold">Next Starter Template</h1>
         <a
@@ -50,7 +24,8 @@ function Main() {
           rel="noopener noreferrer"
           className={cn(buttonVariants({}))}
         >
-          <Github className="flex-shrink-0 mr-2 size-4"/>Clone the repository
+          <Github className="flex-shrink-0 mr-2 size-4" />
+          Clone the repository
         </a>
       </div>
 
