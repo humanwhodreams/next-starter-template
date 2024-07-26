@@ -19,6 +19,7 @@ export function useDateTime() {
     time: dateTime.toLocaleTimeString(undefined, {
       hour: "2-digit",
       minute: "2-digit",
+      second: "2-digit",
     }),
     amp: dateTime.getHours() < 12 ? "AM" : "PM",
   };

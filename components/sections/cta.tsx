@@ -1,4 +1,3 @@
-import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { buttonVariants } from "../ui/button";
 import { cn } from "@/lib/cn";
@@ -10,9 +9,8 @@ export function CTA() {
         href="https://github.com/fromenoabasi/next-starter-template"
         target="_blank"
         rel="noopener noreferrer"
-        className={cn(buttonVariants({ size: "lg" }))}
+        className={cn(buttonVariants({ }))}
       >
-        <ChevronRight className="mr-2 size-4" />
         See the repository
       </a>
       <Link
