@@ -29,13 +29,13 @@ export function SiteHeader({ className }: SiteHeaderProps) {
         className
       )}
     >
-      <nav className="flex flex-row items-center justify-between px-4 py-1 gap-x-28">
+      <nav className="flex flex-row items-center justify-between px-4 py-1 md:gap-x-28">
         <Link href="/" className="font-medium">
           Next Starter Template
         </Link>
 
-        <div className="flex flex-row items-center justify-between flex-1 md:ml-2">
-          <ul aria-label="primary-navigation" className="flex items-center">
+        <div className="md:flex md:flex-row md:flex-1 md:items-center md:justify-between md:ml-2">
+          <ul aria-label="primary-navigation" className="hidden md:items-center md:flex">
             <li>
               <Link
                 href="/"
@@ -57,7 +57,7 @@ export function SiteHeader({ className }: SiteHeaderProps) {
 
           <ul
             aria-label="secondary-navigation"
-            className="flex items-center gap-x-4"
+            className="flex items-center"
           >
             <li>
               <TimeDisplay />
