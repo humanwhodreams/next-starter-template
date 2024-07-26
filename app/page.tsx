@@ -1,6 +1,7 @@
 import { Hero } from "@/components/sections/hero";
 import { SiteFooter } from "@/components/shared/site-footer";
 import { SiteHeader } from "@/components/shared/site-header";
+import { Vitals } from "@/components/vitals";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ function Main() {
   return (
     <section className="flex flex-col items-start flex-1 w-full max-w-4xl mx-auto my-24">
       <Hero />
-      {/* <section className="px-4 mt-8">User stats</section>
-      <section className="px-4">Features</section> */}
+      <section className="hidden md:block md:mt-8">
+        <Vitals />
+      </section>
     </section>
   );
 }
