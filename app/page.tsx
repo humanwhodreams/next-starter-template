@@ -1,4 +1,5 @@
 import { Github } from "lucide-react";
+import { Hero } from "@/components/sections/hero";
 import { SiteHeader } from "@/components/shared/site-header";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/cn";
@@ -15,27 +16,10 @@ export default function Home() {
 
 function Main() {
   return (
-    <section className="min-h-screen bg-sky-50">
-      <div className="mb-6 space-y-4">
-        <h1 className="font-bold">Next Starter Template</h1>
-        <a
-          href="http://github.com/fromenoabasi/next-starter-template"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={cn(buttonVariants({}))}
-        >
-          <Github className="flex-shrink-0 mr-2 size-4" />
-          Clone the repository
-        </a>
-      </div>
-
-      <div>
-        <h2 className="font-semibold">User Stats</h2>
-
-        <ul>
-          <li className="text-muted-foreground">Currently not available</li>
-        </ul>
-      </div>
+    <section className="flex flex-col items-start flex-1 w-full max-w-4xl mx-auto my-24">
+      <Hero />
+      <section className="px-4 mt-8">User stats</section>
+      <section className="px-4">Features</section>
     </section>
   );
 }
