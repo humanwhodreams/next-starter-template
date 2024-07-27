@@ -14,9 +14,9 @@ export function SiteFooter({ className }: SiteFooterProps) {
           <p className="text-sm text-muted-foreground">
             Built using <ALink label="Next.js" href="https://nextjs.org" /> +{" "}
             <ALink label="Shadcn/ui" href="https://ui.shadcn.com" />{" "}
-            &amp; powered by <ALink label="Vercel" href="https://vercel.com" />.
+            &amp; powered by <ALink label="Vercel" href="https://vercel.com" /> and others.
           </p>
-          <p className="text-sm text-muted-foreground">Made with ⚡ + ☕</p>
+          <p className="text-sm text-muted-foreground">Made with <span className="text-rose-500">❤️</span> and 🧠</p>
         </div>
       </nav>
     </footer>
