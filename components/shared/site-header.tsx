@@ -3,10 +3,8 @@
 */
 "use client";
 
-import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { TimeDisplay } from "../time-display";
-import { buttonVariants } from "../ui/button";
 import { cn } from "@/lib/cn";
 import { useWindowScroll } from "@/hooks/use-window-scroll";
 
@@ -29,41 +27,16 @@ export function SiteHeader({ className }: SiteHeaderProps) {
         className
       )}
     >
-      <nav className="flex flex-row items-center justify-between px-4 py-1 md:gap-x-28">
+      <nav className="flex flex-row items-center justify-between px-4 py-2 md:gap-x-28">
         <Link href="/" className="font-medium">
           Next Starter Template
         </Link>
 
-        <div className="md:flex md:flex-row md:flex-1 md:items-center md:justify-between md:ml-2">
-          <ul aria-label="primary-navigation" className="hidden md:items-center md:flex">
-            <li>
-              <Link
-                href="/"
-                className={cn(buttonVariants({ variant: "ghost-text" }))}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/sign-in"
-                className={cn(buttonVariants({ variant: "ghost-text" }))}
-              >
-                Sign in
-                <ArrowUpRight className="flex-shrink-0 ml-2 size-4 text-muted-foreground group-hover/button:text-foreground" />
-              </Link>
-            </li>
-          </ul>
-
-          <ul
-            aria-label="secondary-navigation"
-            className="flex items-center"
-          >
-            <li>
-              <TimeDisplay />
-            </li>
-          </ul>
-        </div>
+        <ul aria-label="primary-navigation" className="flex items-center">
+          <li>
+            <TimeDisplay />
+          </li>
+        </ul>
       </nav>
     </header>
   );

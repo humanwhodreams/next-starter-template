@@ -7,17 +7,16 @@ interface SiteFooterProps {
 export function SiteFooter({ className }: SiteFooterProps) {
   return (
     <footer className={cn("w-full bg-background", className)}>
-      <nav className="flex flex-col items-start px-4 py-1 md:flex-row md:items-center md:justify-between gap-y-4 md:gap-x-28">
-        <h1 className="font-medium">Next Starter Template</h1>
+      <nav className="flex flex-col items-start px-4 py-2 md:flex-row md:items-center md:justify-between gap-y-4 md:gap-x-28">
+        <p className="text-sm text-muted-foreground">
+          Built using <ALink label="Next.js" href="https://nextjs.org" /> +{" "}
+          <ALink label="Shadcn/ui" href="https://ui.shadcn.com" /> &amp; powered
+          by <ALink label="Vercel" href="https://vercel.com" /> and others.
+        </p>
 
-        <div className="flex flex-col flex-1 md:flex-row md:pl-2 md:justify-between">
-          <p className="text-sm text-muted-foreground">
-            Built using <ALink label="Next.js" href="https://nextjs.org" /> +{" "}
-            <ALink label="Shadcn/ui" href="https://ui.shadcn.com" />{" "}
-            &amp; powered by <ALink label="Vercel" href="https://vercel.com" /> and others.
-          </p>
-          <p className="text-sm text-muted-foreground">Made with <span className="text-rose-500">❤️</span> and 🧠</p>
-        </div>
+        <p className="text-sm text-muted-foreground">
+          Made with <span className="text-rose-500">❤️</span> and 🧠
+        </p>
       </nav>
     </footer>
   );

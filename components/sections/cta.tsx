@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { buttonVariants } from "../ui/button";
 import { cn } from "@/lib/cn";
 
@@ -9,16 +8,10 @@ export function CTA() {
         href="https://github.com/fromenoabasi/next-starter-template"
         target="_blank"
         rel="noopener noreferrer"
-        className={cn(buttonVariants({ }))}
+        className={cn(buttonVariants({}))}
       >
         See the repository
       </a>
-      <Link
-        href="components"
-        className="font-medium underline transition-colors duration-200 md:ml-6 decoration-dotted underline-offset-2 hover:text-sky-500"
-      >
-        Browse components
-      </Link>
     </div>
   );
 }
