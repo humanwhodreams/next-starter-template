@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
 
-/**
- * Get the current time as a ticker
- * @returns An object containing formatted date & time
- */
 export function useDateTime() {
   let [dateTime, setDateTime] = useState(new Date());
 

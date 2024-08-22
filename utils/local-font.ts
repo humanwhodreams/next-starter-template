@@ -1,17 +1,5 @@
-/*
-  A collection of local static fonts.
-  Fonts include.
-    - Inter
-    - Jetbrains Mono
-*/
-
 import localFont from "next/font/local";
 
-/**
- * Locally imported inter font.
- *
- * @see directory public/fonts/inter
- */
 export const _inter = localFont({
   src: [
     {
@@ -55,11 +43,6 @@ export const _inter = localFont({
   display: "swap",
 });
 
-/**
- * Locally imported jetbrains mono font.
- *
- * @see directory public/fonts/jetbrains-mono
- */
 export const _jetbrains = localFont({
   src: [
     {

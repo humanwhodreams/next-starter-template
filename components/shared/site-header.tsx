@@ -4,7 +4,7 @@
 "use client";
 
 import Link from "next/link";
-import { TimeDisplay } from "../time-display";
+import { SiteTime } from "../site-time";
 import { cn } from "@/lib/cn";
 import { useWindowScroll } from "@/hooks/use-window-scroll";
 
@@ -34,7 +34,7 @@ export function SiteHeader({ className }: SiteHeaderProps) {
 
         <ul aria-label="primary-navigation" className="flex items-center">
           <li>
-            <TimeDisplay />
+            <SiteTime />
           </li>
         </ul>
       </nav>

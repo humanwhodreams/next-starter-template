@@ -1,4 +1,4 @@
-import { CTA } from "./cta";
+import { CTA } from "../cta";
 
 export function Hero() {
   return (

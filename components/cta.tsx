@@ -1,4 +1,4 @@
-import { buttonVariants } from "../ui/button";
+import { buttonVariants } from "./ui/button";
 import { cn } from "@/lib/cn";
 
 export function CTA() {

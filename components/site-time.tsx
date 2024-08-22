@@ -4,13 +4,9 @@ import { Clock } from "lucide-react";
 import { useDateTime } from "@/hooks/use-date-time";
 import { useMounted } from "@/hooks/use-mounted";
 
-/*
-  Displays the current time as a ticker
-*/
-
-export function TimeDisplay() {
+export function SiteTime() {
+  const { isMounted } = useMounted();
   const { time, amp } = useDateTime();
-  const isMounted = useMounted();
 
   if (!isMounted) {
     return null;
